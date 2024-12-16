@@ -13,7 +13,7 @@ export default function Navbar() {
     setIsOpen(false);
   }
   return (
-    <div className=' bg- py-5 px-3 bg-neutral-200 sticky top-0'>
+    <div className=' bg- py-5 z-10 px-3 bg-neutral-200 sticky top-0'>
       <div className='container flex items-center justify-between'>
         <div className='flex items-center'>
           <Image className='mr-4' src={logo} width={50} height={50} alt='logo' />
